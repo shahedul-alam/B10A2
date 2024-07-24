@@ -16,7 +16,7 @@ body {
 
 /* header section */
 header {
-    background: linear-gradient(90.00deg, rgb(17, 17, 17),rgba(167, 165, 165, 0) 100%);
+    background: linear-gradient(90deg, rgba(17, 17, 17, 0) 0%, rgb(17, 17, 17) 50%, rgba(167, 165, 165, 0) 100%);
 }
 header > nav {
     width: 80%;
@@ -60,6 +60,9 @@ nav > ul > li:first-child {
 nav > ul > li:last-child {
     margin-right: 2.4rem;
 }
+nav > img {
+    display: none;
+}
 .header-content-wrapper {
     width: 80%;
     max-width: 1440px;
@@ -71,7 +74,6 @@ nav > ul > li:last-child {
 }
 .header-content {
     max-width: 520px;
-    margin-top: 9.8rem;
 }
 .header-content > h1 {
     color: rgb(255, 255, 255);
@@ -184,3 +186,84 @@ nav > ul > li:last-child {
 
 
 
+@media screen and (max-width: 576px) {
+    header > nav {
+        width: 90%;
+        padding-top: 5rem;
+    }
+    nav > ul {
+        display: none;
+    }
+    nav > img {
+        display: block;
+        width: 24px;
+        height: 24px;
+    }
+    .header-content-wrapper {
+        width: 90%;
+        flex-direction: column;
+        gap: 5rem;
+        flex-wrap: nowrap;
+        margin-top: 5rem;
+    }
+    .header-content {
+        width: 100%;
+        margin-top: 0;
+    }
+    .header-content > h1 {
+        max-width: 285px;
+        font-size: 3.6rem;
+        font-weight: 900;
+    }
+    .header-content > p {
+        max-width: 274px;
+    }
+    .header-btn-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1.4rem;
+    }
+    .header-btn1, .header-btn2 {
+        padding: 14px 20px 14px 20px;
+        width: fit-content;
+        flex-grow: 1;
+        margin: 0;
+    }
+    .header-banner {
+        margin: 0;
+    }
+    .header-banner > img {
+        width: 100%;
+    }
+    .banner-card1 {
+        bottom: 230px;
+        left: 0;
+        width: 155.74px;
+        height: 72.58px;
+        gap: 0.7rem;
+    }
+    .circle {
+        width: 30.24px;
+        height: 30.24px;
+    }
+    .banner-card1 > div > h2 {
+        font-size: 18.14px;
+        margin-bottom: 0.519rem;
+    }
+    .banner-card1 > div > p {
+        font-size: 12.1px;
+    }
+    .banner-card2 {
+        top: 50px;
+        right: 0;
+        width: 145px;
+        height: 74px;
+    }
+    .banner-card2 > h2  {
+        font-size: 30.24px;
+    }
+    .banner-card2 > p {
+        font-size: 9.83px;
+    }
+}
