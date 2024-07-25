@@ -329,4 +329,22 @@ nav > img {
     .banner-card2 > p {
         font-size: 9.83px;
     }
+
+    /* habits section */
+    .habits {
+        width: 90%;
+        margin-bottom: 6.5rem;
+    }
+    .habits-info {
+        width: 100%;
+    }
+    .habits-info > h2 {
+        font-size: 3.2rem;
+    }
+    .habits-cards-wrapper {
+        width: 60%;
+        margin: 0 auto;
+        grid-template-columns: 1fr;
+        gap: 3.5rem;
+    }
 }
