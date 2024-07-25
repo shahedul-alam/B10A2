@@ -107,6 +107,7 @@ nav > img {
     border: none;
     background: rgb(230, 83, 60);
     margin-right: 1.4rem;
+    cursor: pointer;
 }
 .header-btn2 {
     width: 224px;
@@ -119,6 +120,7 @@ nav > img {
     padding: 16px 40px 16px 40px;
     border: 1px solid rgb(255, 255, 255);
     border-radius: 42px;
+    cursor: pointer;
 }
 .header-banner {
     position: relative;
@@ -260,7 +262,7 @@ nav > img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 4rem;
+    gap: 3rem;
     flex-wrap: wrap;
 }
 .run-info {
@@ -292,6 +294,7 @@ nav > img {
     border-radius: 42px;
     border: none;
     background: rgb(230, 83, 60);
+    cursor: pointer;
 }
 .run-img {
     background: url("./images/run.jpg");
@@ -410,5 +413,34 @@ nav > img {
         margin: 0 auto;
         grid-template-columns: 1fr;
         gap: 3.5rem;
+    }
+
+    /* run section */
+    .run {
+        box-sizing: border-box;
+        width: 90%;
+        flex-direction: column;
+        padding: 3.5rem;
+        margin-bottom: 6.5rem;
+        flex-wrap: nowrap;
+    }
+    .run-info {
+        width: 100%;
+        padding: 0;
+    }
+    .run-info > h2 {
+        font-size: 3.2rem;
+    }
+    .run-info > p {
+        margin-bottom: 2.4rem;
+    }
+    .run-info > button {
+        width: 100%;
+        cursor: pointer;
+    }
+    .run-img {
+        width: 100%;
+        height: 170px;
+        flex-grow: 0;
     }
 }
