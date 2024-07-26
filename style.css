@@ -890,4 +890,20 @@ td {
         width: 100%;
         padding: 18px 40px 18px 20px;
     }
+
+    /* team section */
+    .team {
+        width: 90%;
+        margin-bottom: 6.5rem;
+    }
+    .team-info {
+        width: 90%;
+        margin-bottom: 3.5rem;
+    }
+    .team-info > h2 {
+        font-size: 3.2rem;
+    }
+    .trainer-container {
+        grid-template-columns: 1fr;
+    }
 }
