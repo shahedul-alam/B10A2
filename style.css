@@ -1061,4 +1061,16 @@ footer {
         position: static;
     }
     
+    /* footer section */
+    .footer {
+        padding-top: 4.5rem;
+    }
+    .footer-content-wrapper {
+        width: 90%;
+        grid-template-columns: 0.9fr;
+        gap: 3rem;
+    }
+    .rights {
+        width: 90%;
+    }
 }
