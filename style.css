@@ -581,13 +581,13 @@ td {
     margin: 0 auto;
     margin-bottom: 9rem;
 }
-.team-info {
+.team-info, .membership-info {
     width: 80%;
     max-width: 671px;
     margin: 0 auto;
     margin-bottom: 6rem;
 }
-.team-info > h2 {
+.team-info > h2, .membership-info > h2 {
     color: rgb(255, 255, 255);
     font-size: 4.8rem;
     font-weight: 900;
@@ -595,7 +595,7 @@ td {
     text-align: center;
     margin-bottom: 1.4rem;
 }
-.team-info > p {
+.team-info > p, .membership-info > p {
     color: rgba(255, 255, 255, 0.5);
     font-size: 1.4rem;
     font-weight: 400;
@@ -676,6 +676,85 @@ td {
 .member-tag {
     margin-top: 0.5rem;
     font-weight: 200;
+}
+
+/* membership section */
+.plans-container {
+    width: 80%;
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-bottom: 9rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4rem;
+    align-content: center;
+    justify-content: center;
+}
+.plans {
+    background: rgb(255, 245, 225);
+    border-radius: 18px;
+    padding: 2rem;
+    position: relative;
+}
+.plans > h3 {
+    color: rgb(200, 0, 54);
+    font-size: 2.8rem;
+    font-weight: 900;
+    line-height: 120%;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.plans > p {
+    color: rgb(2, 21, 38);
+    font-size: 4.8rem;
+    font-weight: 900;
+    line-height: 120%;
+    text-align: center;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid rgb(200, 0, 54, 0.5);
+    margin-bottom: 3rem;
+}
+.benefits {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+}
+.benefits-wrapper {
+    margin-bottom: 4rem;
+}
+.benefits > img {
+    width: 24px;
+    height: 24px;
+}
+.benefits > p {
+    color: rgb(2, 21, 38);
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+}
+.plans-btn-all > button, .plans-btn > button {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 22px;
+    bottom: 2rem;
+    border: none;
+    border-radius: 42px;
+    padding: 14px 60px 14px 60px;
+    background: rgb(200, 0, 54);
+    cursor: pointer;
+}
+.plans-btn > button {
+    position: static;
+}
+.plans-btn, .plans-btn-all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
