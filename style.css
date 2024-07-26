@@ -693,7 +693,7 @@ td {
 .plans {
     background: rgb(255, 245, 225);
     border-radius: 18px;
-    padding: 2rem;
+    padding: 3rem;
     position: relative;
 }
 .plans > h3 {
@@ -741,7 +741,7 @@ td {
     font-size: 1.8rem;
     font-weight: 600;
     line-height: 22px;
-    bottom: 2rem;
+    bottom: 3rem;
     border: none;
     border-radius: 42px;
     padding: 14px 60px 14px 60px;
@@ -975,14 +975,28 @@ td {
         width: 90%;
         margin-bottom: 6.5rem;
     }
-    .team-info {
+    .team-info, .membership-info {
         width: 90%;
         margin-bottom: 3.5rem;
     }
-    .team-info > h2 {
+    .team-info > h2, .membership-info > h2 {
         font-size: 3.2rem;
     }
-    .trainer-container {
+    .trainer-container, .plans-container {
         grid-template-columns: 1fr;
     }
+
+    /* membership section */
+    .membership {
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 6.5rem;
+    }
+    .plans-container {
+        width: 90%;
+    }
+    .plans-btn-all > button, .plans-btn > button {
+        position: static;
+    }
+    
 }
