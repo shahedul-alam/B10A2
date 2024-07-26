@@ -147,6 +147,8 @@ nav > img {
     height: 40px;  
     background: rgb(230, 83, 60);
     border-radius: 50%;
+    display: flex;
+    justify-content: center;
 }
 .banner-card1 > div > h2 {
     color: rgb(250, 250, 249);
@@ -306,6 +308,148 @@ nav > img {
     height: 315px;
     flex-grow: 1;
 }
+
+/* training section */
+.training {
+    width: 80%;
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-bottom: 8rem;
+}
+.training-info {
+    max-width: 671px;
+    width: fit-content;
+    margin-bottom: 6rem;
+}
+.training-info > h2 {
+    color: rgb(255, 255, 255);
+    font-size: 4.8rem;
+    font-weight: 900;
+    line-height: 120%;
+    text-align: left;
+    margin-bottom: 1.4rem;
+}
+.training-info > p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+}
+.training-img-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(2, 215px);
+}
+.training-img-container > div {
+    width: 100%;
+    height: 100%;
+}
+.img1 {
+    background: linear-gradient(0.00deg, rgba(6, 255, 210, 0.5), 
+    rgba(6, 255, 210, 0.5)), url(./images/exercise1.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    position: relative;
+    grid-column: 1 / span 3;
+}
+.img1 > p {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 1.4rem;
+    font-weight: 500;
+    bottom: 2rem;
+    left: 1.5rem;
+}
+.img2 {
+    background: linear-gradient(0.00deg, rgba(255, 0, 0, 0.3), 
+    rgba(255, 0, 0, 0.3)), url(./images/exercise2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    grid-column: 4 / span 5;
+}
+.img2 > p {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 1.4rem;
+    font-weight: 500;
+    top: 2rem;
+    left: 2rem;
+}
+.img3 {
+    background: linear-gradient(0.00deg, rgba(0, 0, 0, 0.5), 
+    rgba(0, 0, 0, 0.5)), url(./images/exercise3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    grid-column: 9 / span 4;
+}
+.img3 > p {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 1.4rem;
+    font-weight: 500;
+    bottom: 2rem;
+    left: 2.5rem;
+}
+.img4 {
+    background: linear-gradient(0.00deg, rgba(0, 0, 0, 0.5), 
+    rgba(0, 0, 0, 0.5)), url(./images/exercise4.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    grid-column: 1 / span 4;
+}
+.img4 > p {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 1.4rem;
+    font-weight: 500;
+    top: 2.5rem;
+    right: 2rem;
+}
+.img5 {
+    background: linear-gradient(0.00deg, rgba(66, 255, 0, 0.3), 
+    rgba(66, 255, 0, 0.3)), url(./images/exercise5.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    grid-column: 5 / span 3;
+}
+.img5 > p {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 1.4rem;
+    font-weight: 500;
+    bottom: 2rem;
+    left: 2.5rem;
+}
+.img6 {
+    background: linear-gradient(0.00deg, rgba(0, 71, 255, 0.3), 
+    rgba(0, 71, 255, 0.3)), url(./images/exercise6.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    grid-column: 8 / span 5;
+}
+.img6 > p {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 1.4rem;
+    font-weight: 500;
+    bottom: 2rem;
+    left: 2.5rem;
+}
+
+
 
 
 
