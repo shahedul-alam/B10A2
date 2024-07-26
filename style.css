@@ -587,8 +587,8 @@ td {
     }
     nav > img {
         display: block;
-        width: 24px;
-        height: 24px;
+        width: 32px;
+        height: 32px;
     }
     .header-content-wrapper {
         width: 90%;
@@ -747,5 +747,43 @@ td {
         grid-column: 6 / span 7;
     }
     
-
+    /* bmi section */
+    .bmi {
+        margin-bottom: 6.5rem;
+    }
+    .bmi-info {
+        width: 90%;
+        margin-bottom: 3rem;
+    }
+    .bmi-info > h2 {
+        font-size: 3.2rem;
+    }
+    .charts-wrapper {
+        width: 90%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 4rem;
+        padding: 3rem 0;
+    }
+    .charts {
+        width: 100%;
+        flex-grow: 0;
+    }
+    .charts > h3 {
+        font-size: 1.6rem;
+        margin-bottom: 2.5rem;
+    }
+    .calculate {
+        width: 100%;
+        flex-grow: 0;
+    }
+    .calculate > h3 {
+        font-size: 1.6rem;
+    }
+    .input-container > input {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 18px 40px 18px 20px;
+    }
 }
