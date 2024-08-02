@@ -549,14 +549,19 @@ td {
     grid-template-columns: repeat(2, 1fr);
     gap: 1.2rem;
 }
-.input-container > input {
+.input-container > input, .input-container > select {
     padding: 18px 40px 18px 20px;
     border: none;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.1);
 }
-
-.input-container > input:last-child {
+.input-container > input::placeholder, .input-container > select {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.4rem;
+    font-weight: 400;
+    text-align: left;
+}
+.input-container > select:last-child {
     grid-column: 1 / span 2;
 }
 .calculate > button {
